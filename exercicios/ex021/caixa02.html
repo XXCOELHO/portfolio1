@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+        }
+        nav {
+            background-color: rgb(85, 85, 85);
+            padding: 3px;
+            box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.315);
+            border-radius: 4px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: chartreuse;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 3px;
+            border-radius: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(90, 90, 90);
+            color: beige;
+            text-align: right;
+            padding: 1;
+        }
+        div#bola {
+            height: 50px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="">Link1</a>
+            <a href="">Link2</a>
+            <a href="">Link3</a>
+            <a href="">Link4</a>
+        </nav>
+
+    </header>
+    <main>
+        <section>Assuntos</section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit laborum exercitationem rerum voluptas ducimus dolore assumenda excepturi. Modi aliquid eos debitis veniam culpa ea voluptates consequatur harum quisquam earum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus adipisci explicabo voluptas quia alias eaque aperiam exercitationem modi placeat quos vero non suscipit natus deserunt sint, et similique nisi a.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio mollitia ab commodi officia eos numquam, vitae aut saepe doloremque neque natus iusto culpa ea quo, odit, beatae nemo quaerat nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni animi consequuntur voluptatum voluptates tempore itaque illum dolores. Voluptatum veniam neque dolores, magni autem totam hic tempore quibusdam distinctio nostrum. Quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur praesentium aliquam inventore odio repellendus. Adipisci, praesentium odit iusto earum fuga ad magnam facere consequatur officia, dolorum odio expedita nobis?</p>
+                <aside>
+                    <p>Artigo escrito por Fulano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Coelho</p>
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>

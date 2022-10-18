@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Esse vídeo está hospedado o meu próprio servidor.</p>
+    <!--Nesse caso o consumo de dados pode ser grande-->
+    <video width="250" poster="media/ceva.png" controls loop>
+        <source src="media/file.m4v" type="video/mp4">
+        <source src="media/file.mp4" type="video/mp4">
+        <source src="media/file.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade para reproduzir esse vídeo.</p>
+    </video>
+
+    <p>Esse vídeo está no Youtube</p>
+    <!--Nesse caso o consumo de dados será mínimo-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tjZQnk5j6Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p>Esse vídeo está no Vimeo</p>
+    <!--Nesse caso o consumo de dados será mínimo-->
+    <iframe src="https://player.vimeo.com/video/115073009?h=41664bbb86" width="560" height="314" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
